@@ -1,0 +1,426 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+
+
+.header{
+    width: 86%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/Header.jpg);
+
+    background-size:cover;
+    background-position: center;
+    padding:0px 7%;
+    position:relative;
+    
+}
+
+nav{
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    padding:10px,0;
+}
+
+.logo{
+    width: 150px;
+    padding:10px 0;
+    cursor:pointer; 
+    margin: left 100px;
+    
+}
+   
+   nav button{
+     border: 0;
+    outline:0;
+    background:#db0001;
+    color:white;
+    padding:9px 30px;
+    font-size:14px;
+    border-radius:4px;
+    margin-left:20px;
+    cursor: pointer;
+
+   }
+
+   .language-btn{
+    display: inline-flex;
+    align-items: center;
+    background:transparent;
+    border:1px solid white;
+    padding:8px 36px;
+     width: 125px;
+   }
+
+   .language-btn img{
+    width: 10px;
+    margin-left: 20px;
+   }
+
+
+   .header-content{
+    top:50%;
+    position:absolute;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align:center;
+    margin-top:100px;
+
+   }
+
+.header-content h1{
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 60px;
+}
+
+.header-content h3{
+        font-size:25px;
+line-height: 20px;
+font-weight: 100;
+}
+
+  /*  line-height: 60px;
+    font-weight: 600;
+    max-width:1000px;
+    margin-bottom:80px;
+
+    .header-content h3{
+    font-size:25px;
+    font-weight:400;
+    margin-bottom:10px;
+    
+
+
+}*/
+
+.email-signup{
+    background: transparent;
+    display: flex;
+    
+    align-items:center;
+    border-radius: 2px ;
+   /* overflow: hidden;*/
+    margin-top:  30px;
+    border: 1px solid white;
+    
+
+}
+.email-signup input{
+    flex:1;
+    border:0;
+    outline:0;
+    margin-left: 20px;
+    background: transparent;
+    
+     border-radius: 4px;
+   
+}
+
+.email-signup button{
+    background:#db0001;
+    border:0;
+    outline:0;
+    color:white;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 15px 50px;
+}
+/*
+.features{
+    padding: 50px 12px;
+    font-size:22px;
+}
+
+.row{
+    display:flex;
+    width:1000px;
+    align-items: right;
+    flex-wrap: wrap;
+    padding: 50px 0;
+
+}
+
+.text-col{
+    flex-basis:100px;
+    margin-bottom: 20px;
+    
+    
+
+}
+
+.img-col{
+
+    flex-basis:20px;
+
+    margin-bottom: 400px;
+    margin-left: 590px;
+    width:45%;
+    
+}
+
+.img-col img{
+    
+  width: 600px;
+  margin:auto;
+  width:100%;
+   
+}
+
+.text-col h2{
+    width: 600px;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 35px;
+    margin-top: 150px;
+}
+
+.text-col p{
+    font-size:24px;
+    width:500px;
+    
+
+}*/
+
+.part1{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex:wrap;
+    height: 100vh;
+
+border-bottom: 0.6rem solid #111;
+
+}
+.part1 .talk{
+    width: 40%;
+}
+
+.part1 .talk h1{
+   
+
+    width: 800px;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 25px;
+
+}
+
+.part1 .talk p{
+  
+     
+     font-size: 25px;
+}
+
+.part1 .img{
+    width:45%;
+}
+
+.part1 .img img{
+    width:100%;
+}
+
+
+.part2{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex:wrap;
+    height: 100vh;
+
+}
+.part2 .talk{
+    width: 48%;
+}
+
+.part2 .talk h1{
+   
+
+    width: 500px;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 60px;
+
+}
+
+.part2 .talk p{
+  
+     
+     font-size: 25px;
+}
+
+.part2 .img{
+    width:45%;
+}
+
+.part2 .img img{
+    width:100%;
+}
+
+
+.part3{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex:wrap;
+    height: 100vh;
+
+    border-bottom: 0.6rem solid #111;
+
+}
+.part3 .talk{
+    width: 40%;
+}
+
+.part3 .talk h1{
+   
+
+    width: 800px;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 25px;
+
+}
+
+.part3 .talk p{
+  
+     
+     font-size: 25px;
+}
+
+.part3 .img{
+    width:45%;
+}
+
+.part3 .img img{
+    width:100%;
+}
+
+
+.part4{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex:wrap;
+    height: 100vh;
+    border-bottom: 0.6rem solid #111;
+
+}
+.part4 .talk{
+    width: 48%;
+}
+
+.part4 .talk h1{
+   
+
+    width: 500px;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 60px;
+
+}
+
+.part4 .talk p{
+  
+     
+     font-size: 25px;
+}
+
+.part4 .img{
+    width:45%;
+}
+
+.part4 .img img{
+    width:100%;
+}
+
+.list{
+    width:60%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.list h1{
+    color :#fff;
+    font-size: 3rem;
+    width:700px;
+    padding : 3rem 0 4rem 0;
+    margin-left: 600px;
+}
+
+.list p{
+    margin-left:400px;
+}
+.title{
+    background: #303030;
+    padding: 20px 30px;
+    font-size:1.7rem;
+    display:flex;
+    color:#fff;
+    justify-content: space-between;
+    font-weight:400;
+    width:850px;
+    margin-left: 450px;
+    text-decoration: none;
+}
+
+.icon{
+    width:30px;
+    position: relative;
+
+}
+
+
+.icon::before, .icon::after{
+    content: "";
+    position:absolute;
+    width:30px;
+    height:3px;
+    background: #fff;
+    top: -1.5px;
+    
+}
+
+
+.icon::after{
+    transform: rotate(90deg);
+    transition: 0.7s linear;
+    width:30px;
+    
+    
+}
+
+.text{
+
+    background: #303030;
+    line-height:30px;
+    margin:3px 0;
+    font-weight:400;
+    font-size:1.7rem;
+    color:#fff;
+    opacity: 0;
+
+    height: 0;
+}
+
+
+
+
+.item:target .text{
+    opacity: 1;
+    height: auto;
+    padding: 20px 20px;
+    margin-left:450px;
+    margin-bottom: 6px;
+    border-top: 2px solid #000;
+
+}
