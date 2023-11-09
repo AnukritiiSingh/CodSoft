@@ -1,47 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Code Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Anukriti Singh - Developer Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,600&display=swap"
+        rel="stylesheet">
+
 </head>
+
 <body>
+
     <header>
-        <h1>Your Name</h1>
+
+
+        <nav>
+            <div class="left"> Anukriti Portfolio </div>
+            <div class="right">
+                <ul>
+
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contacts</a></li>
+                    <li><a href="/">Skills</a></li>
+                    <li><a href="/">Open Source</a></li>
+                </ul>
+            </div>
+        </nav>
     </header>
 
-    <nav>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+    <main>
+        <section class="first">
+            <div class="leftSection">Hii, My Name is <span class="purple">Anukriti Singh.</span>
+                <div> And I am a Passionate </div>
+                
+                <span id="element"></span>
+            </div>
+            <div class="rightSection">
+                <img src="Image/11.webp">
+            </div>
+        </section>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Write a brief introduction about yourself and your programming background.</p>
-    </section>
+        <hr>
 
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>Project 1: Project Name</h3>
-            <p>Description of the project.</p>
-            <a href="link_to_project_repository_or_live_demo" target="_blank">View Project</a>
-        </div>
+        <section class="secondSection">
+            <span class="text-gray">Some Of My Recent Projects</span>
+            <h1>Work Experience</h1>
 
-        <div class="project">
-            <h3>Project 2: Project Name</h3>
-            <p>Description of the project.</p>
-            <a href="link_to_project_repository_or_live_demo" target="_blank">View Project</a>
-        </div>
-    </section>
+            <div class="box">
+                <div class="vertical"></div>
+                <div class="vertical"></div>
+                <div class="vertical"></div>
+                <div class="vertical"></div>
 
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>You can reach me at your@email.com</p>
-    </section>
+            </div>
+
+        </section>
+    </main>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer','Full Stack Developer', 'Software Developer', 'Graphic Designer','Content Creator', 'Blogger','Video Editor'],
+      typeSpeed: 50,
+    });
+  </script>
 </body>
+
 </html>
